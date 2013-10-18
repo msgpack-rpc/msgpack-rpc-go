@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 	"reflect"
-    "github.com/msgpack/msgpack-rpc/go/rpc"
+	"github.com/msgpack-rpc/msgpack-rpc-go/rpc"
 )
 
 type Resolver map[string]reflect.Value
